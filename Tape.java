@@ -1,8 +1,4 @@
-public class Tape {
-  public static final int NORMAL = 0;
-  public static final int LANCAMENTO = 1;
-  public static final int INFANTIL = 2;
-
+public class Tape implements TapeIF {
   private String titulo;
 
   public Tape(String titulo) {
@@ -12,5 +8,8 @@ public class Tape {
   public String getTitulo() {
     return titulo;
   }
-}
 
+  public double getValorAluguel(int diasAlugada) {
+    return 0;
+  }
+}
