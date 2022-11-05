@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class Client {
+public class Cliente {
   private String nome;
   private Collection alugueis = new Vector();
 
-  public Client(String nome) {
+  public Cliente(String nome) {
     this.nome = nome;
   }
 
