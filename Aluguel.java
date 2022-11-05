@@ -14,5 +14,9 @@ public class Aluguel {
   public int getDiasAlugada() {
     return diasAlugada;
   }
+
+  public double getValorAluguel() {
+    return fita.getValorAluguel(diasAlugada);
+  }
 }
 
