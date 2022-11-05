@@ -7,7 +7,7 @@ public class Aluguel {
     this.diasAlugada = diasAlugada;
   }
 
-  public Fita getTape() {
+  public Fita getFita() {
     return fita;
   }
 
