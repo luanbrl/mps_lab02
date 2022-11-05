@@ -1,7 +1,7 @@
-public class Tape implements TapeIF {
+public class Fita implements FitaIF {
   private String titulo;
 
-  public Tape(String titulo) {
+  public Fita(String titulo) {
     this.titulo = titulo;
   }
 

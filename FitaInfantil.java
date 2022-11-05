@@ -1,5 +1,5 @@
-public class TapeInfantil extends Tape {
-  public TapeInfantil(String _titulo) {
+public class FitaInfantil extends Fita {
+  public FitaInfantil(String _titulo) {
     super(_titulo);
   }
     

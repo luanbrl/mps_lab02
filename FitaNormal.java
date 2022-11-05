@@ -1,5 +1,5 @@
-public class TapeNormal extends Tape {
-  public TapeNormal(String _titulo) {
+public class FitaNormal extends Fita {
+  public FitaNormal(String _titulo) {
     super(_titulo);
   }
     
