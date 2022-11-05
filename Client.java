@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Client {
   private String nome;
-  private Collection TapesAlugadas = new Vector();
+  private Collection alugueis = new Vector();
 
   public Client(String nome) {
     this.nome = nome;
@@ -12,8 +12,8 @@ public class Client {
     return nome;
   }
 
-  public void adicionaRent(Rent Rent) {
-    TapesAlugadas.add(Rent);
+  public void adicionaAluguel(Aluguel aluguel) {
+    alugueis.add(aluguel);
   }
 }
 
