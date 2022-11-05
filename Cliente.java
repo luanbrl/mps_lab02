@@ -12,6 +12,10 @@ public class Cliente {
     return nome;
   }
 
+  public Collection getAlugueis() {
+    return alugueis;
+  }
+
   public void adicionaAluguel(Aluguel aluguel) {
     alugueis.add(aluguel);
   }
