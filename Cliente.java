@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Cliente {
-  private String nome;
-  private Collection alugueis = new Vector();
+  public String nome;
+  public Collection alugueis = new Vector();
 
   public Cliente(String nome) {
     this.nome = nome;
