@@ -1,6 +1,6 @@
 public class FitaNormal extends Fita {
-  public FitaNormal(String _titulo) {
-    super(_titulo);
+  public FitaNormal(String titulo) {
+    super(titulo);
   }
     
   @Override

@@ -1,6 +1,6 @@
 public class FitaInfantil extends Fita {
-  public FitaInfantil(String _titulo) {
-    super(_titulo);
+  public FitaInfantil(String titulo) {
+    super(titulo);
   }
     
   @Override
